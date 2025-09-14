@@ -36,7 +36,7 @@
     font-display: swap;
 }
 body{
-    font-family:"Raleway", "Vollkorn" sans-serif;
+    font-family:"Raleway", sans-serif;
     font-size: 24px;
     background: #08060B;
 }
@@ -231,8 +231,7 @@ body{
 }
 .prices {
     text-align: center;
-}
-.container {
+    font-family: "Vollkorn", sans-serif;
 }
 .prices-container {
     padding: 260px 0 196px;
@@ -266,4 +265,32 @@ body{
     font-weight: 500;
     font-size: 48px;
     color: #F2F2F2;
+}
+.footer {
+    background: #19050A;
+}
+.footer-container {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer-logo a{
+    font-family: "Vollkorn", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+.footer-icons {
+    margin-left: auto;
+    display: flex;
+    gap: 64px;
+}
+.footer-icons a{
+    display: block;
+    color: #F2F2F2;
+}
+.footer-icons svg{
+    width: 32px;
+    height: 32px;
 }
