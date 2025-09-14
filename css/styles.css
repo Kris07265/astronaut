@@ -73,7 +73,6 @@ body{
 }
 .hero {
     position: relative;
-    overflow: hidden;
 }
 .hero-container {
     padding: 144px 0 220px;
@@ -125,7 +124,7 @@ body{
     left: -330px;
     width: 920px;
     height: 920px;
-    background: radial-gradient(circle at top left, rgba(90, 0, 7, 0.5), transparent);
+    background: radial-gradient(circle at top left, rgba(90, 0, 7, 1), transparent);
 }
 .hero::after{
     content: '';
@@ -139,7 +138,6 @@ body{
 .about {
     text-align: center;
     position: relative;
-    overflow: hidden;
 }
 .about::before{
     content: '';
@@ -191,7 +189,6 @@ body{
 }
 .advanced{
     position: relative;
-    overflow: hidden;
 }
 .advanced::after{
     content: '';
@@ -234,15 +231,14 @@ body{
 }
 .improved{
     position: relative;
-    overflow: hidden;
 }
-.improved::after{
-    content: '';
-    position: absolute;
-    top: 100px;
-    right: -600px;
-    width: 1200px;
-    height: 1200px;
+.improved::after{ 
+    content: ''; 
+    position: absolute; 
+    top: 100px; 
+    right: -600px; 
+    width: 1200px; 
+    height: 1200px; 
     background: radial-gradient(circle at right center, rgba(90, 0, 7, 1), transparent);
 }
 .improved-container {
@@ -279,7 +275,6 @@ body{
     text-align: center;
     font-family: "Vollkorn", sans-serif;
     position: relative;
-    overflow: hidden;
 }
 .prices::after{
     content: '';
